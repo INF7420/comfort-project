@@ -1,0 +1,240 @@
+.main-header {
+    background: black;
+    text-align: center;
+    font-style: italic;
+    color: firebrick;
+    font-size: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-family: 'Berkshire Swash', cursive;    
+    letter-spacing: 9px        
+}
+
+.main-navigation {
+    background: black;
+
+
+    }
+
+.main-navigation ul {
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    border-bottom: double;
+    border-color: white;    
+
+}
+
+.main-navigation li {
+    font-size: 40px;
+    font-family: 'Vidaloka', serif;
+line-height: 40px;
+height: 40px;
+
+}
+
+.main-navigation a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: .3s font-style;
+    transition: .3s color;
+    transition: .3s background-color;
+    
+}
+
+.main-navigation a:hover {
+    font-style: italic;
+    color: firebrick;
+    background-color: #003323
+
+}
+
+.main-navigation a.active {
+    font-style: italic;
+    background-color: firebrick;
+    color: #003323;
+}
+
+img {
+    max-width: 75%;
+}
+
+.main-body {
+    background: black;
+}
+
+.index-heading1 {
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 6px;
+    padding: 0;
+
+}
+
+.about-heading1 {
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 6px;
+    padding: 0;
+    
+}
+
+.about-heading2 {
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 6px;
+    padding: 0;
+
+}
+
+.contact-heading1 {
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 6px;
+    padding: 0;
+}
+
+.paragraph1-index {
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    font-size: 43px;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 64.5px;
+    padding-top: 35px;
+    padding-bottom: 60px;
+
+}
+
+.about-paragraph1 {
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    font-size: 43px;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 64.5px;
+    padding-top: 35px;
+    padding-bottom: 60px;
+
+}
+
+.about-paragraph2 {
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    font-size: 43px;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 64.5px;
+    padding-top: 35px;
+    padding-bottom: 60px;
+  
+}
+
+.email-address {
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    font-size: 86px;
+    text-align: center;
+    line-height: 120px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.phone-number {
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    font-size: 86px;
+    text-align: center;
+    line-height: 120px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+
+}
+
+.about-bookshelfimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-zenrocks {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.contact-mailbox {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.contact-phone {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.index-heading2 {
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 6px;
+    padding: 0;
+}
+
+.paragraph2-index {
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    font-size: 43px;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 64.5px;
+    padding-top: 0px;
+    padding-bottom: 60px;
+
+}
+.main-footer {
+    font-family: 'Vidaloka', serif;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    letter-spacing:1px;
+    padding-top: 15px;
+    text-align: center;    
+}
+
+@media screen and (min-width: 600px) {
+    .main-navigation ul {
+    border-bottom: none;
+    }
+    
+    .main-navigation a {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    .main-navigation li {
+        height: 50px;
+        line-height: 50px;
+        font-size: 40px;
+        display: inline-block;
+    
+
+    }
+}
