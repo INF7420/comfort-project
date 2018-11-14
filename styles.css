@@ -238,7 +238,7 @@ img {
     
 
     }
-    .form {
+    .validate {
         margin: 0 auto;
         width: 800px;
         padding: 1em;
@@ -277,6 +277,9 @@ img {
 .thanks {
     font-family: 'Vidaloka', serif;
     font-size: 40px;
+    color: white;
+    text-align: center;
+    
 
 }
 }
